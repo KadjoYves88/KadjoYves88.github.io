@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio ESATIC - Big Data & IA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Portfolio ESATIC</a>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <input type="checkbox" id="dark-mode-toggle">
+                <label for="dark-mode-toggle" class="dark-mode-label">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                    <span class="ball"></span>
+                </label>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Yves Elias <span>YEDE</span></h1>
+                    <p class="sous-titre">Étudiant en Big Data & IA à l'ESATIC</p>
+                    <p class="citation">« L’un de nos grands objectifs en matière de recherche est de faire en sorte que la recherche comprenne vraiment exactement ce que vous voulez, comprenne tout dans le monde. En tant qu’informaticiens, nous appelons cela l’intelligence artificielle. » Lary Page, informaticien, businessman, o-fondateur de Google</p>
+                    <div class="cta-buttons">
+                        <a href="#" class="btn btn-cv">Télécharger CV</a>
+                        <a href="#contact" class="btn btn-contact">Me contacter</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/profil.jpeg" alt="Photo de profil">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="section">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3><i class="fas fa-user-graduate"></i> Parcours</h3>
+                    <p>Étudiant en Big Data et IA à l'ESATIC, passionné par l'analyse de données et le machine learning.</p>
+                </div>
+                <div class="about-card">
+                    <h3><i class="fas fa-bullseye"></i> Objectifs</h3>
+                    <p>Devenir Data Scientist et maîtriser l'écosystème Big Data.</p>
+                </div>
+                <div class="about-card">
+                    <h3><i class="fas fa-heart"></i> Centres d'intérêt</h3>
+                    <ul>
+                        <li>Machine Learning</li>
+                        <li>Visualisation de données</li>
+                        <li>Cloud Computing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Développement</h3>
+                    <ul>
+                        <li><i class="fab fa-html5"></i> HTML5</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                        <li><i class="fab fa-python"></i> Python</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Big Data</h3>
+                    <ul>
+                        <li><i class="fas fa-database"></i> Hadoop</li>
+                        <li><i class="fas fa-bolt"></i> Spark</li>
+                        <li><i class="fas fa-chart-bar"></i> Power BI</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Intelligence Artificielle</h3>
+                    <ul>
+                        <li><i class="fas fa-brain"></i> scikit-learn</li>
+                        <li><i class="fas fa-project-diagram"></i> TensorFlow</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="section">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/400x250" alt="Projet Big Data">
+                    </div>
+                    <div class="project-info">
+                        <h3>Analyse de données</h3>
+                        <p>Projet d'analyse de dataset avec Python</p>
+                        <a href="#" class="project-link">Voir sur GitHub <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/400x250" alt="Projet IA">
+                    </div>
+                    <div class="project-info">
+                        <h3>Modèle de classification</h3>
+                        <p>Implémentation d'un modèle ML</p>
+                        <a href="#" class="project-link">Voir sur GitHub <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-container">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Votre message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Envoyer</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Coordonnées</h3>
+                    <p><i class="fas fa-envelope"></i> kadjo.yede2024@esatic.edu.ci</p>
+                    <p><i class="fab fa-linkedin"></i> linkedin.com/in/kadjo-yves-elias-yede-1a7b40224/</p>
+                    <p><i class="fab fa-github"></i> github.com/KadjoYves88</p>
+                    <div class="qr-code">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://example.com/cv" alt="QR Code CV">
+                        <p>Mon CV numérique</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Portfolio ESATIC - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mode sombre/clair
+        const toggle = document.getElementById('dark-mode-toggle');
+        const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
+        
+        // Appliquer le thème au chargement
+        if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && prefersDarkScheme.matches)) {
+            document.body.classList.add('dark-theme');
+            toggle.checked = true;
+        }
+        
+        toggle.addEventListener('change', function() {
+            if (this.checked) {
+                document.body.classList.add('dark-theme');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                document.body.classList.remove('dark-theme');
+                localStorage.setItem('theme', 'light');
+            }
+        });
+
+        // Menu mobile
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
